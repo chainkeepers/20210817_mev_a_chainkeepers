@@ -42,50 +42,39 @@
                                         </p>
                                 </section>
                                         <section id="fragments">
-                                          <h2>AGENDA</h2>
-                                          <p class="fragment">původ a podstata MEV</p>
+                                          <small>ÚŽASNÁ CESTA SVĚTEM DEFI</small>
+                                          <h2>agenda</h2>
+                                          <p class="fragment">podstata MEV</p>
                                           <p class="fragment">příklady MEV</p>
                                           <p class="fragment">objem MEV</p>
                                           <p class="fragment">ChainKeepers</p>
-                                          <p class="fragment"></p>
                                         </section>
                                 <section>
                                         <section id="fragments">
-                                          <h2>PŮVOD MEV</h2>
-                                          <p class="fragment">MEV je zisk z <em>přerovnání</em> transakcí</p>
-                                          <p class="fragment">kde není MEV</p>
-                                          <p class="fragment">kde MEV je</p>
-                                          <p class="fragment">kdy lze MEV těžit - příklady</p>
-                                        </section>
-                                        <section id="fragments">
-                                          <small>PŮVOD MEV</small>
-                                          <h2>dumb chain</h2>
-                                          <p class="fragment">výlučně <em>vlastník</em> peněženky posílá zůstatek</p>
-                                          <p class="fragment">stačí aplikovat vsechny transakce v bloku</p>
-                                          <p class="fragment">pak zkontrolovat zůstatky peněženek</p>
-                                          <p class="fragment">pořadí určujě <em>vlastník</em> ne miner</p>
-                                        </section>
-                                        <section id="fragments">
-                                          <small>PŮVOD MEV</small>
-                                          <h2>smart chain</h2>
-                                          <p class="fragment"><em>kdokoliv</em> může volat <em>smart kontrakt</em></p>
+                                          <small>MEV</small>
+                                          <h2>podstata</h2>
+                                          <p class="fragment">bloky obsahují transakce měnící <em>sdílený</em> stav</p>
+                                          <p class="fragment">init cena(A/B) = 10</p>
+                                          <p class="fragment">[update cena(A/B) = 9] [swap(A za B)]</p>
+                                          <p class="fragment">[swap(A za B)] [update cena(A/B) = 9]</p>
                                           <p class="fragment">na pořadí transakcí <em>záleží</em></p>
-                                          <p class="fragment">pořadí významně ovlivňuje <em>miner</em></p>
+                                          <p class="fragment">pořadí určuje <em>miner</em></p>
+                                          <p class="fragment">MEV je zisk z <em>přerovnání</em> transakcí</p>
                                         </section>
                                         <section id="fragments">
-                                          <small>PŮVOD MEV</small>
-                                          <h2>ico</h2>
+                                          <small>MEV</small>
+                                          <h2>příklad - ico</h2>
                                           <p class="fragment">"rozdáváme 100ETH - kdo <em>dřív</em> příjde, ten <em>dřív</em> mele"</p>
                                           <p class="fragment">všichni chtějí jako <em>první</em> vybrat 100ETH</p>
                                           <p class="fragment">kdo vyhraje?</p>
                                           <p class="fragment"><em>miner</em> - je vždy první</p>
                                         </section>
                                         <section id="fragments">
-                                          <small>PŮVOD MEV</small>
-                                          <h2>swap</h2>
+                                          <small>MEV</small>
+                                          <h2>příkldad - swap</h2>
                                           <img src="swap.png" alt="swap" style="height: 100px; margin: 0 0 0 0; background: transparent;">
                                           <p class="fragment">swap na Uniswapu není nic jiného</p>
-                                          <p class="fragment">"dává se X SHIB za Y ETH"</p>
+                                          <p class="fragment">"dává se X <em>SHIB</em> za Y <em>ETH</em>"</p>
                                           <p class="fragment">jestli lze jinde získat Y ETH za Z &lt; X SHIB</p>
                                           <p class="fragment">všichni chtějí takový ziskový obchod zrealizovat</p>
                                           <p class="fragment">
@@ -93,68 +82,53 @@
                                             2.tx
                                           </p>
                                         </section>
-                                        <section id="fragments">
-                                          <small>PŮVOD MEV</small>
-                                          <h2>likvidace</h2>
-                                          <p class="fragment">uživatel vloží 10ETH do AAVE</p>
-                                          <p class="fragment">při ceně 1ETH za 3116DAI si může půjčit 24928DAI</p>
-                                          <p class="fragment">cena 1ETH klesne na 3000DAI</p>
-                                          <p class="fragment">to stačí na 24750DAI</p>
-                                          <p class="fragment">půjčka 24928DAI je už příliš velká</p>
-                                          <p class="fragment">kdokoliv splatí DAI, dostane ETH s 5% slevou</p>
-                                          <p class="fragment">
-                                            <a href="https://etherscan.io/block/12959402">https://etherscan.io/block/12959402</a>,
-                                            1.tx
-                                          </p>
-                                        </section>
                                 </section>
 
                                 <section>
                                         <section id="fragments">
-                                          <h2>OBJEM MEV</h2>
+                                          <h2>objem mev</h2>
                                           <p class="fragment"><a href="https://explore.flashbots.net">https://explore.flashbots.net</a></p>
-                                          <img class="fragment" src="aave_profit.png" alt="profit" style="height: 150px; margin: 0 0 0 0; background: transparent;">
                                         </section>
                                 </section>
 
                                <section>
                                         <section id="fragments">
                                           <h2>CHAINKEEPERS</h2>
-                                          <p>Keeping DeFi just work</p>
+                                          <p>keeping DeFi just work</p>
                                         </section>
                                         <section id="fragments">
                                           <small>CHAINKEEPERS</small>
                                           <h2>mise</h2>
                                           <p class="fragment">využíváme arbitrážních příležitostí</p>
-                                          <p class="fragment">udržujeme v DeFi <em>rovnováhu</em> a stabilitu</p>
-                                          <p class="fragment">věříme v otevřené a <em>programovatelné</em> finance</p>
+                                          <p class="fragment"><em>zlepšujeme</em> ceny, <em>stabilizujeme</em> DeFi</p>
+                                          <p class="fragment">věříme, že <em>otevřené</em> a <em>programovatelné</em> finance změní svět</p>
+                                        </section>
+                                        <section id="fragments">
+                                          <small>CHAINKEEPERS</small>
+                                          <h2>zrození</h2>
+                                          <p class="fragment">účastnit se exploze DeFi ekosystému</p>
+                                          <p class="fragment">držet krok</p>
+                                          <p class="fragment">nám umožňuje náš <em>skvělý tým</em></p>
+                                          <p class="fragment">silný investor <a href="https://www.mitonc.com">Miton C</a></p>
+                                          <p class="fragment">vizionářský mentor <a href="https://www.miton.cz/ondrej-raska">Ondřej Raška</a></p>
                                         </section>
                                         <section id="fragments">
                                           <small>CHAINKEEPERS</small>
                                           <h2>vize</h2>
                                           <p class="fragment">budeme <em>významným</em> tvůrcem cen v DeFi</p>
-                                          <p class="fragment">budeme obchodovat 1% DEX objemu</p>
-                                        </section>
-                                        <section id="fragments">
-                                          <small>CHAINKEEPERS</small>
-                                          <h2>zrození</h2>
-                                          <p class="fragment">exploze DeFi ekosystému</p>
-                                          <p class="fragment">je těžké držet krok o samotě</p>
-                                          <p class="fragment">naší sílu vidíme ve specializaci a <em>skvělém týmu</em></p>
-                                          <p class="fragment">financování nám poskytuje <a href="https://www.miton.cz">Miton</a></p>
-                                          <p class="fragment">
-                                            náším mentorem a partnerem je <a href="https://www.miton.cz/ondrej-raska">Ondřej Raška</a>
+                                          <p class="fragment">budeme obchodovat 1%
+                                            <a href="https://www.theblockcrypto.com/data/decentralized-finance/dex-non-custodial">DEX objemu</a>
                                           </p>
                                         </section>
-                                        <section id="fragments">
+                                        <section>
                                           <small>CHAINKEEPERS</small>
                                           <h2>tým</h2>
-                                          <p class="fragment"><a href="https://www.linkedin.com/in/ondrej-vostal">Ondřej Vostal</a> - matematik</p>
-                                          <p class="fragment"><a href="https://www.linkedin.com/in/uhuge">Martin Vlach</a> - Solidity</p>
-                                          <p class="fragment"><a href=" https://www.linkedin.com/in/v6ak">Vítek Šesták</a> - polyglot programátor</p>
-                                          <p class="fragment"><a href="https://www.linkedin.com/in/marek-hauzr-8016077b">Marek Hauzr</a> - data science a engineering</p>
-                                          <p class="fragment"><a href="https://www.linkedin.com/in/ondrejraska">Ondra Raška</a> - budovatel startupů</p>
-                                          <p class="fragment">David Bala - příležitostný filosof</p>
+                                          <p><a href="https://www.linkedin.com/in/ondrej-vostal">Ondřej Vostal</a> - matematik</p>
+                                          <p><a href="https://www.linkedin.com/in/v6ak">Vítek Šesták</a> - polyglot programátor</p>
+                                          <p><a href="https://www.linkedin.com/in/marek-hauzr-8016077b">Marek Hauzr</a> - data science a engineering</p>
+                                          <p><a href="https://www.linkedin.com/in/milancermak">Milan Čermák</a> - programátor</p>
+                                          <p><a href="https://www.linkedin.com/in/shejbal">Jaroslav Shejbal</a> - devops</p>
+                                          <p><a href="https://www.linkedin.com/in/ondrejchaloupka">Ondřej Chaloupka</a> - programátor</p>
                                         </section>
                                         <section id="fragments">
                                           <small>CHAINKEEPERS</small>
